@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+
+h1, p{
+    color:white;
+}
+
+#mainContent{
+    font-family: Utopia;
+    position:absolute;
+    top:45%;
+    left:20%;
+    font-size: 2vw;
+}
+
+#mainPicture{
+    position:absolute;
+    width: 20%;
+    height:auto;
+    top:55%;
+    left: 20%;
+}
+
+#content1{
+    position:absolute;
+    top:60%;
+    left: 45%;
+}
+
+button{
+    background-color: gray;
+    border-radius: 1em;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+#button1{
+    position:absolute;
+    left:15%;
+
+}
+#button2{
+    position:absolute;
+    left:33%;
+ }
+#button3{
+    position: absolute;
+    left:51%;
+  }
+#button4{
+
+    position: absolute;
+    left:69%;
+   }
