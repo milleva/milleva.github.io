@@ -1,7 +1,8 @@
 function theTeam(){
     empty();
     document.getElementById('topContent').innerHTML =
-        'We are currently a one-person army but looking to expand in the near future. Contact for any working inquiries!';
+        'We are currently a one-person army but ' +
+        '<span><strong>looking to expand</strong></span> in the near future. Contact for any working inquiries!';
     document.getElementById('mainContent').innerHTML =
         'Evan Miller - Full Stack Developer';
     document.getElementById('mainPicture').src = '../images/evan_thumbs_up.jpg';
