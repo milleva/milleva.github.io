@@ -1,5 +1,7 @@
 function theTeam(){
     empty();
+    document.getElementById('topContent').innerHTML =
+        'We are currently a one-person army but looking to expand in the near future. Contact for any working inquiries!';
     document.getElementById('mainContent').innerHTML =
         'Evan Miller - Full Stack Developer';
     document.getElementById('mainPicture').src = '../images/evan_thumbs_up.jpg';
@@ -23,7 +25,7 @@ function whatnow(){
     document.getElementById('mainContent').innerHTML =
         'The company is currently working on a mobile app<br>' +
         'in collaboration with mercury.black.<br><br>' +
-        'Mobile Marketing Companion will be launched soon.' +
+        '<span><i>Mobile Marketing Companion</i></span> will be launched soon.' +
         '';
 }
 
@@ -31,4 +33,5 @@ function empty(){
     document.getElementById('mainPicture').src = '../images/black.png';
     document.getElementById('content1').innerHTML = '';
     document.getElementById('mainContent').innerHTML = '';
+    document.getElementById('topContent').innerHTML = '';
 }

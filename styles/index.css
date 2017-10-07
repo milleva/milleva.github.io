@@ -17,13 +17,15 @@ p{
 }
 
 #topContent{
-
+    position:absolute;
+    top:45%;
+    left: 20%;
+    font-size: x-large;
 }
 
 #mainContent{
-    font-family: "DejaVu Sans";
     position:absolute;
-    top:45%;
+    top:55%;  /*orig. 45%*/
     left:20%;
     font-size: 2vw;
 }
@@ -32,13 +34,13 @@ p{
     position:absolute;
     width: 20%;
     height:auto;
-    top:55%;
+    top:67%;
     left: 20%;
 }
 
 #content1{
     position:absolute;
-    top:60%;
+    top:70%;
     left: 45%;
 }
 
