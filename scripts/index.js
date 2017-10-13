@@ -5,7 +5,7 @@ function theTeam(){
         '<span><strong>looking to expand</strong></span> in the near future. Contact for any working inquiries!';
     document.getElementById('mainContent').innerHTML =
         'Evan Miller - Full Stack Developer';
-    document.getElementById('mainPicture').src = '../images/evan_thumbs_up.jpg';
+    document.getElementById('mainPicture').src = '../images/evan_represent_working_smile1.jpg';
     document.getElementById('content1').innerHTML =
         'Studies Computer Science in the University of Helsinki.<br><br>' +
         'Programming experience in java, javascript and C.<br><br>' +
@@ -24,10 +24,23 @@ function showContact(){
 function whatnow(){
     empty();
     document.getElementById('mainContent').innerHTML =
-        'The company is currently working on a mobile app<br>' +
-        'in collaboration with mercury.black.<br><br>' +
-        '<span><i>Mobile Marketing Companion</i></span> will be launched soon.' +
-        '';
+        'The company is <b>currently</b> working on a mobile app<br>' +
+        'in collaboration with <a href="http://mercury.black" target="_blank">mercury.black</a>.<br><br>' +
+        '<span><i>Mobile Marketing Companion</i></span> will be launched soon.<br><br>' +
+        '<b>Further into the future</b> the company will be focused on releasing<br>' +
+        'original mobile apps.';
+}
+
+function about(){
+    empty();
+    document.getElementById('mainContent').innerHTML =
+        'MILLER SOLUTIONS is a Finnish software company founded in 2017 by an ' +
+        'aspiring Computer Science student Evan Miller.<br><br>' +
+        'Services include all types of software development and IT help on software level.<br>' +
+        '(You can call me up for a home visit!)<br><br>' +
+        'The goal is to build a big enough team to be able to work on native projects with <br>' +
+        'full focus as well as outsource programming consultants elsewhere.';
+
 }
 
 function empty(){

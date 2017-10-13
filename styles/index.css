@@ -8,15 +8,19 @@ body{
 
 h1{
     color: var(--red);
+    font-family: "Tibetan Machine Uni", serif;
     font-size: 3vw;
 }
 
 p{
     color:white;
+    font-family: "Abyssinica SIL";
     font-size: xx-large;
 }
 
 #topContent{
+
+    font-family: "Abyssinica SIL";
     position:absolute;
     top:45%;
     left: 20%;
@@ -26,8 +30,9 @@ p{
 #mainContent{
     position:absolute;
     top:55%;  /*orig. 45%*/
-    left:20%;
+    left:20%;error: src refspec master does not match any.
     font-size: 2vw;
+    font-family: "Abyssinica SIL";
 }
 
 #mainPicture{
@@ -41,7 +46,8 @@ p{
 #content1{
     position:absolute;
     top:70%;
-    left: 45%;
+    left: 43%;
+    font-family: "Abyssinica SIL";
 }
 
 button{
