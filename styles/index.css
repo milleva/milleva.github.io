@@ -70,7 +70,7 @@ button{
     background-color: gray;
     border-radius: 1em;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -79,8 +79,17 @@ button{
     cursor: pointer;
 }
 
-button:hover {
-    background-color: lightgray;
+#button1:hover {
+    background-color: red;
+}
+#button2:hover {
+    background-color: orange;
+}
+#button3:hover {
+    background-color: yellow;
+}
+#button4:hover {
+    background-color: greenyellow;
 }
 
 #button1{
