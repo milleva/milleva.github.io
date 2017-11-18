@@ -28,8 +28,18 @@ p{
 }
 
 #mainContent{
+    left: 10vw;
+    width: 80vw;
     position:absolute;
     top: 30vw;  /*orig. 45%*/
+    font-size: 2vw;
+    font-family: "Abyssinica SIL";
+}
+
+#contact{
+    position:absolute;
+    top: 30vw;  /*orig. 45%*/
+    left: 35vw;
     font-size: 2vw;
     font-family: "Abyssinica SIL";
 }

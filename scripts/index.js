@@ -15,7 +15,7 @@ function theTeam(){
 
 function showContact(){
     empty();
-    document.getElementById('mainContent').innerHTML =
+    document.getElementById('contact').innerHTML =
         'Country: Finland<br>' +
         'eMail: evanmillersolutions@gmail.com<br>' +
         'phone: +358 40 812 6244';
@@ -24,7 +24,7 @@ function showContact(){
 function whatnow(){
     empty();
     document.getElementById('mainContent').innerHTML =
-        'The company is <b>currently</b> working on a mobile app<br>' +
+        'The company is currently working on a mobile app<br>' +
         'in collaboration with <a href="http://mercury.black" target="_blank">mercury.black</a>.<br><br>' +
         '<span><i>Mobile Marketing Companion</i></span> will be launched soon.<br><br>' +
         '<b>Further into the future</b> the company will be focused on releasing<br>' +
@@ -34,11 +34,12 @@ function whatnow(){
 function about(){
     empty();
     document.getElementById('mainContent').innerHTML =
-        '<center>MILLER SOLUTIONS is a Finnish software company founded in 2017 by an ' +
+        '<span style="color:red"><b>Miller Solutions</b></span> is a Finnish software company founded in 2017 by an ' +
         'aspiring Computer Science student Evan Miller.<br><br>' +
-        'Services include mobile, web and general application development for private customers as well as businesses<br><br>' +
-        'The goal is to build a big enough team to be able to work on native projects with <br>' +
-        'full focus as well as outsource programming consultants elsewhere.</center>';
+        '<spans style="color:cornflowerblue">Services include</spans> mobile, web and general application development for private customers as well as businesses. ' +
+        'For example homepages, inventories, blogging apps or anything you can come up with!<br><br>' +
+        '<span style="color:pink"><b>It goes without saying</b></span> that because we are a business run by students, prices are adjusted accordingly. ' +
+        'Easily affordable coding services are still hard to come across. This is where you need to look no further!';
 
 }
 
@@ -47,4 +48,5 @@ function empty(){
     document.getElementById('content1').innerHTML = '';
     document.getElementById('mainContent').innerHTML = '';
     document.getElementById('topContent').innerHTML = '';
+    document.getElementById('contact').innerHTML = '';
 }
