@@ -29,8 +29,7 @@ p{
 
 #mainContent{
     position:absolute;
-    top:55%;  /*orig. 45%*/
-    left:20%;error: src refspec master does not match any.
+    top: 30vw;  /*orig. 45%*/
     font-size: 2vw;
     font-family: "Abyssinica SIL";
 }

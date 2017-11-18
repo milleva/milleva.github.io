@@ -34,12 +34,11 @@ function whatnow(){
 function about(){
     empty();
     document.getElementById('mainContent').innerHTML =
-        'MILLER SOLUTIONS is a Finnish software company founded in 2017 by an ' +
+        '<center>MILLER SOLUTIONS is a Finnish software company founded in 2017 by an ' +
         'aspiring Computer Science student Evan Miller.<br><br>' +
-        'Services include all types of software development and IT help on software level.<br>' +
-        '(You can call me up for a home visit!)<br><br>' +
+        'Services include mobile, web and general application development for private customers as well as businesses<br><br>' +
         'The goal is to build a big enough team to be able to work on native projects with <br>' +
-        'full focus as well as outsource programming consultants elsewhere.';
+        'full focus as well as outsource programming consultants elsewhere.</center>';
 
 }
 
