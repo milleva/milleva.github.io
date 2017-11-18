@@ -76,6 +76,7 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 2vw;
+    font-weight: bold;
     cursor: pointer;
 }
 
