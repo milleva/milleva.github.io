@@ -1,8 +1,5 @@
 function theTeam(){
     empty();
-    document.getElementById('topContent').innerHTML =
-        'We are currently a one-person army but ' +
-        '<span><strong>looking to expand</strong></span> in the near future. Contact for any working inquiries!';
     document.getElementById('mainContent').innerHTML =
         'Evan Miller - Full Stack Developer';
     document.getElementById('mainPicture').src = '../images/evan_represent_working_smile1.jpg';
@@ -10,6 +7,8 @@ function theTeam(){
         'Studies Computer Science in the University of Helsinki.<br><br>' +
         'Programming experience in java, javascript and C.<br><br>' +
         'Strengths include logical thinking and hard work<br><br>' +
+        '';
+    document.getElementById('content2').innerHTML =
         '';
 }
 
@@ -24,11 +23,11 @@ function showContact(){
 function whatnow(){
     empty();
     document.getElementById('mainContent').innerHTML =
-        'The company is currently working on a mobile app<br>' +
-        'in collaboration with <a href="http://mercury.black" target="_blank">mercury.black</a>.<br><br>' +
-        '<span><i>Mobile Marketing Companion</i></span> will be launched soon.<br><br>' +
-        '<b>Further into the future</b> the company will be focused on releasing<br>' +
-        'original mobile apps.';
+        'The company is working on a project ' +
+        'for <a href="http://www.svenskaklubben-helsinki.fi" target="_blank">Helsinki Svenska Klubben</a>.<br><br>' +
+        'We are currently looking to take on a <span style="color:cornflowerblue">second</span> project right away ' +
+        'as well as booking more projects to start early 2018. Contact right now for any business inquiries!<br><br>' +
+        'Our previous customers include <a href="http://mercury.black" target="_blank">mercury.black</a>.';
 }
 
 function about(){

@@ -46,16 +46,22 @@ p{
 
 #mainPicture{
     position:absolute;
-    width: 20%;
+    width: 20vw;
     height:auto;
-    top:67%;
-    left: 20%;
+    top:37vw;
+    left: 10vw;
 }
 
 #content1{
     position:absolute;
-    top:70%;
-    left: 43%;
+    top:40vw;
+    left: 33vw;
+    font-family: "Abyssinica SIL";
+}
+#content2{
+    position:absolute;
+    top:60vw;
+    left: 23vw;
     font-family: "Abyssinica SIL";
 }
 
