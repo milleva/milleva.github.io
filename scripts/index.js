@@ -26,7 +26,7 @@ function whatnow(){
         'The company is working on a project ' +
         'for <a href="http://www.svenskaklubben-helsinki.fi" target="_blank">Helsinki Svenska Klubben</a>.<br><br>' +
         'We are currently looking to take on a <span style="color:cornflowerblue">second</span> project right away ' +
-        'as well as booking more projects to start early 2018. Contact right now for any business inquiries!<br><br>' +
+        'as well as booking more projects to start early 2018. Contact <u>right now</u> for any business inquiries!<br><br>' +
         'Our previous customers include <a href="http://mercury.black" target="_blank">mercury.black</a>.';
 }
 
