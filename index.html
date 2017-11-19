@@ -10,25 +10,28 @@
 
 <body>
 <h1 align="center">Miller Solutions</h1>
-<p align="center">Programmatical solutions to all of lifes problems</p><br><br><br>
+<p align="center">Programmatical solutions to all of life's problems</p><br><br><br>
 
 <button onclick="about()" id="button1" type="button">About</button>
 <button onclick="showContact()" id="button2" type="button">Contact</button>
 <button onclick="theTeam()" id="button3" type="button">The Team</button>
-<button onclick="whatnow()" id="button4" type="button">what now?</button>
+<button onclick="whatnow()" id="button4" type="button">What Now?</button>
 
-<img id="mainPicture" src="../images/black.png">
+<img id="mainPicture" src="../images/evan_represent_working_smile1.jpg" style="visibility: hidden;">
+<img id="secondaryPicture" src="../images/lihava_mies.jpg" style="visibility: hidden;">
+<p id="lihava">Lihava</p>
 <p id="topContent" align="center"></p>
 <p id="mainContent" ></p>
 <p id="contact"></p>
 <p id="content1"></p>
-<p id="secondTeamMemberName"></p>
+<p id="firstTeamMember"></p>
+<p id="secondTeamMember"></p>
 <p id="content2"></p>
 
 <p id="orText" style="visibility: hidden">OR</p>
 
 <div id="mail" style="visibility: hidden">
-    <h2>Direct contact</h2>
+    <h2>Directly contact</h2>
         <form name="mail" method="POST"
                   action="send-extra.php">
         <input type="text" placeholder="Your Name" name="name"/><br>
@@ -39,6 +42,7 @@
         &nbsp;
         </form>
 </div>
+<p id="formParagraph" style="visibility: hidden">Leave a message and we will contact you soon.</p>
 
 
 </body>

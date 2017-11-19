@@ -35,8 +35,18 @@ p{
     font-size: 2vw;
     font-family: "Abyssinica SIL";
 }
+#firstTeamMember{
+    color: yellow;
+    left: 10vw;
+    width: 80vw;
+    position:absolute;
+    top: 30vw;  /*orig. 45%*/
+    font-size: 2vw;
+    font-family: "Abyssinica SIL";
+}
 
-#secondTeamMemberName{
+#secondTeamMember{
+    color: yellow;
     left: 10vw;
     width: 80vw;
     position:absolute;
@@ -70,15 +80,38 @@ p{
 
 input{
     width: 20vw;
+    border:solid 0.5px orange;
+    background-color: black;
+    color: white;
+}
+textarea{
+    color: white;
+    width: 20vw;
+    background-color: black;
+    border:solid 0.5px orange;
+    resize: none;
 }
 #formSendButton{
     width: 10vw;
     border-radius: 1em;
+    font-weight: bold;
     cursor: pointer;
-    border: solid gray;
+    color: white;
+    background-color: black;
+    border: solid 1px darkorange;
 }
 #formSendButton:hover{
     background-color: orange;
+    color: #c15a00;
+}
+#formParagraph{
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    top:60vw;
+    left:54vw;
+    width: 20vw;
+
 }
 
 #mainPicture{
@@ -87,6 +120,23 @@ input{
     height:auto;
     top:37vw;
     left: 10vw;
+}
+#secondaryPicture{
+    position:absolute;
+    width: 20vw;
+    height:auto;
+    top:67vw;
+    left: 10vw;
+}
+#lihava{
+    position: absolute;
+    color: black;
+    font-size: 0.7em;
+    top:81vw;
+    left:11vw;
+}
+#lihava:hover{
+    color: white;
 }
 
 #content1{
@@ -128,7 +178,7 @@ button{
     background-color: yellow;
 }
 #button4:hover {
-    background-color: greenyellow;
+    background-color: #cbf442;
 }
 
 #button1{
@@ -149,3 +199,14 @@ button{
     position: absolute;
     left:69vw;
    }
+.textOnlyButton{
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 2vw;
+    color: white;
+}
+.textOnlyButton:hover{
+    color: orange;
+}
