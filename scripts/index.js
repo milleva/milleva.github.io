@@ -41,11 +41,11 @@ function whatnow(){
 function about(){
     empty();
     document.getElementById('mainContent').innerHTML =
-        '<span style="color:#c90000"><b>Miller Solutions</b></span> is a Finnish software company founded in 2017 by an ' +
+        '<span style="color:red"><b>Miller Solutions</b></span> is a Finnish software company founded in 2017 by an ' +
         'aspiring Computer Science student Evan Miller.<br><br><br>' +
-        '<spans style="color:#d30000"><b>Services include</b></spans> mobile, web and general application development for private customers as well as businesses. ' +
+        '<spans style="color:red"><b>Services include</b></spans> mobile, web and general application development for private customers as well as businesses. ' +
         'For example homepages, inventories, blogging apps or anything you can come up with!<br><br><br>' +
-        '<span style="color:#e20000"><b>It goes without saying</b></span> that because we are a business run by students, prices are adjusted accordingly. ' +
+        '<span style="color:red"><b>It goes without saying</b></span> that because we are a business run by students, prices are adjusted accordingly. ' +
         'Easily affordable coding services are still hard to come across. This is where you need to look no further!';
         //#c15a00#e0710f
 }
