@@ -36,12 +36,48 @@ p{
     font-family: "Abyssinica SIL";
 }
 
+#secondTeamMemberName{
+    left: 10vw;
+    width: 80vw;
+    position:absolute;
+    top: 60vw;  /*orig. 45%*/
+    font-size: 2vw;
+    font-family: "Abyssinica SIL";
+}
+
 #contact{
     position:absolute;
     top: 30vw;  /*orig. 45%*/
+    left: 33vw;
+    font-size: 2vw;
+    font-family: "Abyssinica SIL";
+}
+#orText{
+    position:absolute;
+    top: 40vw;  /*orig. 45%*/
     left: 35vw;
     font-size: 2vw;
     font-family: "Abyssinica SIL";
+}
+#mail{
+    position:absolute;
+    top: 45vw;  /*orig. 45%*/
+    left: 33vw;
+    font-size: 1.5vw;
+    color: wheat;
+    font-family: "Abyssinica SIL";
+}
+
+input{
+    width: 20vw;
+}
+#formSendButton{
+    width: 10vw;
+    border-radius: 1em;
+    cursor: pointer;
+}
+#formSendButton:hover{
+    background-color: wheat;
 }
 
 #mainPicture{
@@ -61,8 +97,9 @@ p{
 }
 #content2{
     position:absolute;
-    top:60vw;
-    left: 23vw;
+    top:70vw;
+    left: 33vw;
+    font-size: 2vw;
     font-family: "Abyssinica SIL";
 }
 
@@ -95,19 +132,19 @@ button{
 
 #button1{
     position:absolute;
-    left:15%;
+    left:15vw;
 
 }
 #button2{
     position:absolute;
-    left:33%;
+    left:33vw;
  }
 #button3{
     position: absolute;
-    left:51%;
+    left:51vw;
   }
 #button4{
 
     position: absolute;
-    left:69%;
+    left:69vw;
    }
