@@ -169,16 +169,16 @@ button{
 }
 
 #button1:hover {
-    background-color: red;
+    background-color: orange;
 }
 #button2:hover {
     background-color: orange;
 }
 #button3:hover {
-    background-color: yellow;
+    background-color: orange;
 }
 #button4:hover {
-    background-color: #cbf442;
+    background-color: orange;
 }
 
 #button1{
