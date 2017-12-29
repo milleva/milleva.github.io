@@ -35,7 +35,7 @@ function whatnow(){
     document.getElementById('mainContent').innerHTML =
         'The company is working at full capacity. <br><br>' +
         'We are currently looking to book more projects to start early 2018. ' +
-        'Contact <button class="textOnlyButton" onclick="showContact()"><u>right now</u></button> for any inquiries!<br><br><br><br>';
+        'Contact <button class="textOnlyButton" id="rightnow" onclick="showContact()"><u>right now</u></button> for any inquiries!<br><br><br><br>';
 }
 
 function about(){

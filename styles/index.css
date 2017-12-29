@@ -36,7 +36,7 @@ p{
     font-family: "Abyssinica SIL";
 }
 #firstTeamMember{
-    color: yellow;
+    color: orange;
     left: 10vw;
     width: 80vw;
     position:absolute;
@@ -46,7 +46,7 @@ p{
 }
 
 #secondTeamMember{
-    color: yellow;
+    color: orange;
     left: 10vw;
     width: 80vw;
     position:absolute;
@@ -208,5 +208,8 @@ button{
     color: white;
 }
 .textOnlyButton:hover{
+    color: orange;
+}
+#rightnow{
     color: orange;
 }
