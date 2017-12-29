@@ -207,9 +207,6 @@ button{
     font-size: 2vw;
     color: white;
 }
-.textOnlyButton:hover{
-    color: orange;
-}
 #rightnow{
     color: orange;
 }
