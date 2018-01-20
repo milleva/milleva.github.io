@@ -22,7 +22,7 @@
 <img id="secondaryPicture" src="../images/lihava_mies.jpg" style="visibility: hidden;">
 <p id="lihava">Lihava</p>
 <p id="topContent" align="center"></p>
-<p id="mainContent" ></p>
+<p id="mainContent"></p>
 <p id="contact"></p>
 <p id="content1"></p>
 <p id="firstTeamMember"></p>
@@ -33,15 +33,16 @@
 
 <div id="mail" style="visibility: hidden">
     <h2>Directly contact</h2>
-        <form name="mail" method="POST"
-                  action="https://millersolutions-email-sender.herokuapp.com/direct-contact">
+    <form name="mail" method="POST"
+          action="https://millersolutions-email-sender.herokuapp.com/direct-contact" accept-charset="UTF-8">
         <input type="text" placeholder="Your Name" name="name" required/><br>
         <input type="text" placeholder="Email Address" name="email" required/><br><br>
-            <textarea id='projectDetails' rows="10" cols="40" placeholder="Project Details" name="details" required></textarea><br>
+        <textarea id='projectDetails' rows="10" cols="40" placeholder="Project Details" name="details"
+                  required></textarea><br>
         <input id="formSendButton" type="submit" name="submit"
-                   value="Send"/>
+               value="Send"/>
         &nbsp;
-        </form>
+    </form>
 </div>
 <p id="formParagraph" style="visibility: hidden">Leave a message and we will contact you soon.</p>
 
