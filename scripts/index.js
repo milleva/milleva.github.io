@@ -8,7 +8,7 @@ function theTeam(){
     document.getElementById('secondaryPicture').style.visibility = 'visible';
     document.getElementById('content1').innerHTML =
         'Studies Computer Science in the University of Helsinki.<br><br>' +
-        'Programming experience in java, javascript and C.<br><br>' +
+        'Experience with web and android apps, java, C, Clojure, js, nodejs, React...<br><br>' +
         'Loves to code, play chess and tennis on his freetime.';
     document.getElementById('secondTeamMember').innerHTML =
         'Axel Wallin - Backend Developer';
