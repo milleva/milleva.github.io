@@ -33,7 +33,6 @@ function showContact(){
 function whatnow(){
     empty();
     document.getElementById('mainContent').innerHTML =
-        'The company is working at full capacity. <br><br>' +
         'We are currently looking to book more projects to start early 2018. ' +
         'Contact <button class="textOnlyButton" id="rightnow" onclick="showContact()"><u>right now</u></button> for any inquiries!<br><br><br><br>';
 }
